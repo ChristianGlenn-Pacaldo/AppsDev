@@ -1,0 +1,176 @@
+
+.card {
+  width: 750px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.card-header {
+  background-color: #02d8f0;
+  height: 80px;
+}
+
+.profile-image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid rgb(242, 7, 238);
+  margin-top: -48px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+
+.card-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.card-content p {
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-content ol {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #fcfcfc; 
+  margin-top: 10px;
+}
+.card-content h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #e11d48;
+}
+.addfriend-button {
+  margin-top: 8px;
+  padding: 12px 15px;
+  background-color: #c01728;
+  color: #f5efef;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addfriend-button:hover {
+  background-color: #3e3e3e;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #e11d48;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #e11d48;
+}
+
+.skill-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #008df1;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  appearance: none;
+}
+
+.progress-bar::-webkit-progress-bar {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.progress-bar::-webkit-progress-value {
+  background-color: #04f44c;
+  border-radius: 5px;
+}
+
+.progress-bar::-moz-progress-bar {
+  background-color: #e11d48;
+}
+
+
+.view-facebook-btn {
+  margin-top: 1rem;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: #e11d48;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-facebook-btn:hover {
+  background-color: #0b0b0b;
+}
+
+.footer-text {
+  color: gray;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+.main-header {
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.skills-card {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.skills-title {
+  color: #04a4c4;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.skill-item {
+  margin-bottom: 1rem;
+}
+
+.skill-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.skill-bar-bg {
+  background-color: #4b5563;
+  border-radius: 9999px;
+  height: 0.75rem;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  background-color: #04ec46;
+  height: 100%;
+  border-radius: 9999px;
+}
